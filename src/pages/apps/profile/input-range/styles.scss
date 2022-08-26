@@ -1,0 +1,29 @@
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  background-color: gray;
+  height: 10px;
+  border-radius: 20px;
+}
+
+.barCompleted {
+  height: 10px;
+  width: 60%;
+  background: #1c4c4e;
+  transition: width 1s ease-in-out 0s;
+  border-radius: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  left: -20px;
+}
+
+.label {
+  font-size: 14px;
+  color: gray;
+  position: relative;
+  bottom: 24px;
+}

@@ -1,0 +1,77 @@
+.wraper {
+  width: 500px;
+  // height: 200px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  display: flex;
+  .imgSec {
+    width: 150px;
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    .imgTag {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+    }
+  }
+  .infoWraper {
+    flex: 1;
+    // height: 100%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    .container {
+      padding: 10px;
+      display: flex;
+      .sub1 {
+        width: 60%;
+        // height: 100%;
+        display: flex;
+        flex-direction: column;
+        .starSection {
+          display: flex;
+          align-items: center;
+          margin: 10px 0px;
+        }
+      }
+      .sub2 {
+        display: flex;
+        flex: 1;
+        align-items: flex-end;
+        flex-direction: column;
+
+        height: 100%;
+        .favouriteSec {
+          width: 40px;
+          height: 40px;
+          border: 1px solid lightgray;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          border-radius: 5px;
+          // justify-content: flex-end;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .status {
+          padding: 5px;
+          background-color: lightgreen;
+          width: min-content;
+          border-radius: 5px;
+          margin-top: 40px;
+        }
+        .chat {
+          margin-top: 10px;
+          padding: 10px 15px;
+          width: min-content;
+          border: 1px solid lightgray;
+          border-radius: 5px;
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
